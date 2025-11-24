@@ -1,0 +1,14 @@
+name: demo
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - umap-learn
+  - pandas
+  - matplotlib
+  - seaborn
+  - xgboost
+  - shap
+  - openpyxl
+  - git
+prefix: C:\Users\Nida\miniconda3\envs\demo

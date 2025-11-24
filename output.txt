@@ -1,0 +1,10 @@
+Final Model Results     mae_train  mse_train  max_error_train  mape_train  r2_train    mae_cv    mse_cv  max_error_cv   mape_cv     r2_cv  Number of Features        Description
+Lasso                    0.583716   0.576062         3.215291    0.745781  0.701489  0.607167  0.628019      2.898139  0.771086  0.671368                28.0        best_alpha: 0.001, scaler: StandardScaler()
+Ridge                    0.583247   0.576629         3.224731    0.743660  0.701195  0.605219  0.626441      2.890439  0.769440  0.672229                28.0        best_alpha: 2.257, scaler: StandardScaler()
+Elastic Net              0.583303   0.576520         3.222953    0.743982  0.701252  0.605917  0.626980      2.889612  0.769863  0.671929                28.0        best_alpha: 0.002, best_l1_ratio: 0.100, scaler: StandardScaler()
+Polynomial               0.359533   0.225120         2.363926    0.453148  0.883345  0.438813  0.395351      3.200184  0.554423  0.795785                98.0        best_alpha: 0.0001, scaler: MinMaxScaler(), regularization: Lasso
+XGBoost                  0.020995   0.007921         1.152803    0.018930  0.995895  0.278190  0.180419      1.989714  0.376065  0.905040                28.0        model__max_depth: 6, model__n_estimators: 738, model_min_child_weight: 2
+Random Forest            0.222317   0.090832         1.278884    0.292208  0.952932  0.361686  0.244538      2.051679  0.496341  0.871677                28.0        max_depth: 18, min_samples_split: 2, n_estimators: 258
+KNN                      0.341842   0.220243         2.326667    0.379731  0.885872  0.485668  0.434180      2.488667  0.662234  0.773031                19.0        scaler: MinMax, k: 3
+Lasso_PCA                0.596196   0.611753         3.226908    0.773830  0.682994  0.616287  0.652319      3.052004  0.793690  0.659270                23.0        scaler: Standard, n_components: 0.99
+KRR                      0.194196   0.078240         1.462793    0.173889  0.959457  0.498442  0.632298      3.619231  0.408056  0.674260                28.0        model__alpha: 0.2573, model__gamma: 0.0015, model__kernel: rbf
