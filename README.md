@@ -19,7 +19,7 @@ The code is organized into four main Python scripts (present in src folder), des
 The data folder contains the following three essential files:
 | File name | Description |
 | :--- | :--- |
-| **`*data.csv`** | Contains the main data set |
+| **`data.csv`** | Contains the main data set |
 | **`CHE1147_Amine.xlsx`** | |
 | **`CHE1147_Supports.xlsx`** | |
 
@@ -46,7 +46,7 @@ The scripts are designed to be run in the following order:
 
 1.  `python src\preprocess.py`
     
-    After **preprocess.py** is run, **df_test.csv** and **df_train.csv** which are test and train sets respectively are stored in the data folder to be used by other stags. Sample of these files are present in the data folder.
+    After **preprocess.py** is run, **df_test.csv** and **df_train.csv** which are test and train sets respectively are stored in the data folder to be used by other stags. Sample of these files are present in the data folder. It also stores **cleaned_df.csv** in the same folder for later use.
 2.  `python src\exploratory_data_analysis.py`
 3.  `python src\train_model.py`
 
