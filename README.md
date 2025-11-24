@@ -48,5 +48,6 @@ The scripts are designed to be run in the following order:
     
     After **preprocess.py** is run, **df_test.csv** and **df_train.csv** which are test and train sets respectively are stored in the data folder to be used by other stags. Sample of these files are present in the data folder.
 2.  `python src\exploratory_data_analysis.py`
-3.  `python src\model.py`
-4.  `python src\result_analysis.py`
+3.  `python src\train_model.py`
+   output.txt contains a sample outout of training and running the model
+5.  `python src\result_analysis.py`
