@@ -32,7 +32,7 @@ The data folder contains the following three essential files:
 1.  Clone this repository:
     ```bash
     git clone https://github.com/NidaSaleem1/CHE1147.git
-    cd [Your Project Folder]
+    cd CHE1147
     ```
 2.  Create and activate a new Conda environment (recommended):
     ```bash
