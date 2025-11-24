@@ -20,8 +20,8 @@ The data folder contains the following three essential files:
 | File name | Description |
 | :--- | :--- |
 | **`data.csv`** | Contains the main data set |
-| **`CHE1147_Amine.xlsx`** | |
-| **`CHE1147_Supports.xlsx`** | |
+| **`CHE1147_Amine.xlsx`** | Contains the data for Amine Structure |
+| **`CHE1147_Supports.xlsx`** | Contains the data for Supports Morphology |
 
 ---
 
