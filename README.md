@@ -42,7 +42,7 @@ The data folder contains the following three essential files:
 
 ### Execution Order
 
-The scripts are designed to be run in the following order:
+The scripts are designed to be run in the following order (commands tested on Windows):
 
 1.  `python src\preprocess.py`
     
