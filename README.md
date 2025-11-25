@@ -13,7 +13,7 @@ The code is organized into four main Python scripts (present in src folder), des
 | **`preprocess.py`** | Clean the raw data, handle missing values (imputation/dropping), encode categorical features, scale/normalize numerical features, and prepare the final training and testing datasets. |
 | **`exploratory_data_analysis.py`** | Perform initial data inspection for visualization. |
 | **`train_model.py`** | Define multiple model architectures, train and test models via cross validation |
-| **`result_analysis.py`** | Analyze the models and reasons for behaviors observed during model training  |
+| **`result_analysis.py`** | Analyze the models results and reasons for behaviors observed during model training  |
 
 ### Data
 The data folder contains the following three essential files:
